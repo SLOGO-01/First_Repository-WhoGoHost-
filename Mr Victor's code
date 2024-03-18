@@ -1,0 +1,46 @@
+https://github.com/Veekta/whogohost-clone.git
+
+<head>
+<title>Notification Panel</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="notification-panel">
+  <div class="message">This is a notification message.</div>
+  <button id="okButton">OK</button>
+</div>
+
+<div class="content">
+  <!-- Your page content goes here -->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+//css
+.notification-panel {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8d7da;
+  padding: 10px;
+  text-align: center;
+}
+
+.content {
+  margin-top: 50px; /* Adjust this value based on your notification panel height */
+}
+
+
+//JavaScript 
+const notificationPanel = document.querySelector('.notification-panel');
+const okButton = document.getElementById('okButton');
+
+okButton.addEventListener('click', function() {
+  notificationPanel.style.display = 'none';
+});
+
+
