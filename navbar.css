@@ -138,7 +138,7 @@ form>label {
   font-size: 15px;
 }
 
-.down_part {
+.design_component {
   padding: 80px 80px 80px 80px;
   background-color: gray;
 }
@@ -151,20 +151,21 @@ form>label {
 }
 
 .card {
-  padding: 30px 40px 30px 40px;
-  height: 190px;
-  width: 180px;
+  padding: 20px 30px 20px 30px;
+  height: 270px;
+  width: 250px;
   /* background-color: rgb(155, 151, 148); */
   background-color: rgb(131, 130, 130);
   border-radius: 10px;
+  border: none;
   font-family: Arial, Helvetica, sans-serif;
-  line-height: 30px;
+  line-height: 28px;
   margin-bottom: 10px;
 }
 
-h4 {
-  font-size: 21px;
-  font-weight: 520;
+.card h4 {
+  font-size: 22px;
+  font-weight: 540;
 }
 
 .price {
@@ -174,27 +175,27 @@ h4 {
 }
 
 .stupid_text1 {
-  font-size: 15px;
+  font-size: 16.5px;
   margin-bottom: 45px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .stupid_text2 {
-  font-size: 15px;
+  font-size: 16.5px;
   margin-bottom: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .stupid_text3 {
-  font-size: 15px;
+  font-size: 16.5px;
   margin-bottom: 45px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .stupid_text4 {
-  font-size: 15px;
+  font-size: 16.5px;
   margin-bottom: 15px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .card button {
@@ -568,3 +569,36 @@ footer {
   margin-bottom: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+
+.nav-item{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* @media (max-width: 1024px) {
+  .heropage {
+    max-height: 1000px;
+    padding-top: 80px;
+  }
+  .card_holder {
+    margin-top: -220px;
+    gap: 7px;
+  }
+  .desc {
+    margin-bottom: 50px;
+  }
+  .first_heading {
+    font-size: 35px;
+  }
+  label > input {
+    width: 70vw;
+  }
+  .card {
+    width: 200px;
+   
+  }
+  .card> h4 {
+    font-size: 18px;
+  }
+} */
